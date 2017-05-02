@@ -36,7 +36,7 @@ def appendData(data):
     answers += ";"
     answers += "{0}".format(data[3])
     answers = answers.replace("]", "")
-    answers = answers.replace("]", "")
+    answers = answers.replace("[", "")
 
     fDataA.write(answers)
     fDataA.close()
