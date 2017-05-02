@@ -170,7 +170,8 @@ class Window(QtWidgets.QWidget):
         #Learn
         self.lQuest = QtWidgets.QLabel("Frage")
         self.lQuest.setObjectName("moduleLabel")
-        self.lQuest.setMaximumSize(QtCore.QSize(130, 50))
+        self.lQuest.setMaximumSize(QtCore.QSize(500, 50))
+        self.lQuest.setWordWrap(True)
 
         self.acl1 = QtWidgets.QCheckBox()
         self.acl1.setMaximumWidth(130)
