@@ -384,7 +384,7 @@ class Window(QtWidgets.QWidget):
                 self.dial.setWindowTitle("Auswertung")
                 self.dial.open()
                 self.sStack.setCurrentIndex(0)
-				currentQst = 0
+                currentQst = 0
 
     def checkAnswers(self):
         global correct
