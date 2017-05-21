@@ -1,0 +1,1 @@
+Foreign Key, References Key, Table Key, Primary Key;Keine Null, 0, Text ist nicht leer, Wert ist nicht leer;DozNr integer NOT NULL, Thema varchar(DateTime) NOT NULL, TnR integer NOT NULL, FOREIGN Key (fk_TnNr) REFERENCES BY Teilnehmer (TnNr)
