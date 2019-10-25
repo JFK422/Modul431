@@ -345,6 +345,7 @@ class Window(QtWidgets.QWidget):
         vMain.addWidget(self.wCent)
         self.setLayout(vMain)
 
+    #Minimize and maximize window methods
     def minimize(self):
         self.showMinimized()
 
@@ -354,7 +355,7 @@ class Window(QtWidgets.QWidget):
         else:
             self.showMaximized()
 
-    #SetIndex Functions
+    #SetIndex lermodul index Functions
     def setIndex0(self):
         global index
         index = 0
@@ -397,6 +398,7 @@ class Window(QtWidgets.QWidget):
                 correct = 0
                 wrong = 0
 
+    #Check if the given answers are the same as to the ones given
     def checkAnswers(self):
         global correct
         global wrong
@@ -424,6 +426,7 @@ class Window(QtWidgets.QWidget):
             self.resetOptions()
             self.newLayout()
 
+    #Reset the ui options selected when chosing answers
     def resetOptions(self):
         self.acl1.setCheckState(False)
         self.acl2.setCheckState(False)
@@ -432,6 +435,7 @@ class Window(QtWidgets.QWidget):
 
 
     #SetModule Fucntions
+    #Somehow dont know how to send a variable with onClicked.connect
     def setModule100(self):
         global moduleNum
         moduleNum = 100
