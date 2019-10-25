@@ -54,6 +54,7 @@ QPushButton:hover{
     font-size: 18px;
 }
 
+/* Minimize Button style */
 #minimize{
     border-color: #7194bc;
     border-style: solid;
@@ -72,6 +73,7 @@ QPushButton:hover{
     font-size: 18px;
 }
 
+/* Maximize Button style */
 #maxim{
     border-color: #ff634d;
     border-style: solid;
@@ -87,6 +89,7 @@ QPushButton:hover{
     background-color: #ff5840;
 }
 
+/* Settings Button style */
 #settings{
     border-color: #34c873;
     border-style: solid;
@@ -105,6 +108,7 @@ QPushButton:hover{
     font-size: 18px;
 }
 
+/* TBH idk Button style */
 #friendz{
     border-color: #ffb041;
     border-style: solid;
@@ -141,6 +145,7 @@ QPushButton:hover{
     font-size: 18px;
 }
 
+/*Style of the titlebar */
 #titlebar {
     border-color: #18184A;
     border-style: solid;
@@ -148,6 +153,7 @@ QPushButton:hover{
     color: #18184a;
 }
 
+/* sidepanel style */
 #sidepanel{
     border-color: #2D8AF6;
     border-style: solid;
