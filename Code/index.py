@@ -13,7 +13,7 @@ currentQst = 0
 
 class Window(QtWidgets.QWidget):
     def __init__(self):
-        super(Window, self).__init__()
+        super(Window, self).__init__(flags=QtCore.Qt.FramelessWindowHint)
         self.setGeometry(50,50,1200,700)
         self.setWindowTitle("Lernspiel")
         self.setWindowFlags(self.windowFlags() | QtCore.Qt.FramelessWindowHint)
@@ -32,7 +32,7 @@ class Window(QtWidgets.QWidget):
         windIco = qta.icon("fa.square-o", color="white")
         toolsIco = qta.icon("fa.cog", color="white")
         nextIco = qta.icon("fa.check", color="white")
-        dialIco = QtGui.QIcon(QtGui.QPixmap("/icons/cadent.png"))
+        dialIco = QtGui.QIcon(QtGui.QPixmap("./icons/cadent.png"))
 
         #Create window action buttons
         mini = QtWidgets.QPushButton(minIco, "", self)
